@@ -1,0 +1,30 @@
+body {
+    background-image: url(foto.jpg);
+    background-size: cover;
+    color: white;
+
+}
+
+.isi-anuan{
+    border: 1px solid;
+    border-color: white;
+    padding: 150px;
+    margin: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2 {
+color: red;
+text-align: center;
+}
+
+.isi-anuan button{
+    color: rgb(249, 247, 247);
+    background-color: red;
+}
+
+.isi-anuan input{
+    color: white;
+    background-color: red;
+}

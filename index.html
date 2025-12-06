@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cek Ganjil Genap</title>
+</head>
+<body>
+    <h2>Program Cek Bilangan Ganjil atau Genap</h2>
+
+    <div class="isi-anuan">
+        <label for="angka">Masukan Angka:</label><br>
+        <input type="number" id="angka" placeholder="Contoh: 7">
+        <button onclick="cekAngka()">Cek Angka</button>
+
+    <br>
+        <label for="dari">Masukan Rentang Angka (contoh: 1-10):</label><br>
+        <input type="number" id="dari" placeholder="Dari" style="width: 70px;">
+        <input type="number" id="ke" placeholder="Ke" style="width: 70px;">
+        <button onclick="cekRentang()">Cek Rentang</button>
+
+    <p id="hasil"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
